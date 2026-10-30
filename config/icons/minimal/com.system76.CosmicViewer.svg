@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="photoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <filter id="photoShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#6d28d9" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Squircle Base -->
+  <rect x="10" y="10" width="108" height="108" rx="28" ry="28" fill="url(#photoBg)" filter="url(#photoShadow)"/>
+  <!-- Sun / Moon circle -->
+  <circle cx="86" cy="44" r="9" fill="#fef08a"/>
+  <!-- Back Mountain Peak -->
+  <polygon points="34,88 64,52 88,88" fill="#e9d5ff" fill-opacity="0.6"/>
+  <!-- Front Mountain Peak -->
+  <polygon points="54,88 78,60 102,88" fill="#ffffff"/>
+</svg>

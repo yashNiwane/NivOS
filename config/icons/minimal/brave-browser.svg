@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="flameGrad" x1="10%" y1="90%" x2="90%" y2="10%">
+      <stop offset="0%" stop-color="#c026d3"/>
+      <stop offset="30%" stop-color="#e11d48"/>
+      <stop offset="65%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="flameInner" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#db2777"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <filter id="swirlGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#f97316" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <!-- Sleek circular flame emblem -->
+  <circle cx="64" cy="64" r="54" fill="url(#flameGrad)" filter="url(#swirlGlow)"/>
+  <!-- Inner swirl cutout curve -->
+  <path d="M 64 18 C 78 28 88 44 88 64 C 88 77 77 88 64 88 C 51 88 40 77 40 64 C 40 54 46 45 54 40 C 44 46 36 58 36 70 C 36 86 48 98 64 98 C 84 98 100 82 100 62 C 100 40 84 22 64 18 Z" fill="#1e1b4b" fill-opacity="0.92"/>
+  <!-- Inner core flame tongue -->
+  <path d="M 64 36 C 68 46 76 54 76 64 C 76 71 71 76 64 76 C 58 76 54 72 54 66 C 54 58 60 50 64 36 Z" fill="url(#flameInner)"/>
+</svg>

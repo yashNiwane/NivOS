@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="ribbonLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="ribbonTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="ribbonRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <!-- VS Code Modern Origami Ribbon Emblem -->
+  <!-- Left wing -->
+  <path d="M 22 42 C 18 39 18 33 22 30 L 34 20 C 37 17 42 18 45 22 L 78 54 L 45 86 C 42 90 37 91 34 88 L 22 78 C 18 75 18 69 22 66 L 36 54 Z" fill="url(#ribbonLeft)"/>
+  <!-- Upper fold -->
+  <path d="M 45 22 L 96 14 C 102 13 108 17 108 23 L 108 105 C 108 111 102 115 96 114 L 45 86 L 78 54 Z" fill="url(#ribbonTop)"/>
+  <!-- Right edge facet -->
+  <path d="M 88 32 L 108 23 L 108 105 L 88 96 Z" fill="url(#ribbonRight)" fill-opacity="0.75"/>
+</svg>

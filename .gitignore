@@ -1,0 +1,21 @@
+# NivOS Build Artifacts & Output Images
+out/
+*.iso
+nivos-rootfs.tar.gz
+
+# Pre-compiled binary packages and third-party tarballs
+config/kernel/*.deb
+*.deb
+config/icons/Colloid-icon-theme.tar.xz
+*.tar.xz
+
+# Temporary build caches
+/var/tmp/nivos-build/
+*.tmp
+*.log
+
+# Operating System & Editor caches
+.DS_Store
+Thumbs.db
+*.swp
+*~

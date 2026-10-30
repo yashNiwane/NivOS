@@ -1,0 +1,66 @@
+# NivOS Base System Packages (Debian Sid)
+base-files
+systemd
+systemd-sysv
+dbus
+sudo
+locales
+network-manager
+ca-certificates
+curl
+wget
+zstd
+tar
+xz-utils
+kmod
+initramfs-tools
+nano
+fastfetch
+htop
+zram-tools
+pciutils
+usbutils
+
+# Wayland & COSMIC Desktop Stack (Rust-based)
+xwayland
+mesa-vulkan-drivers
+libgl1-mesa-dri
+vulkan-tools
+greetd
+fonts-open-sans
+gnome-keyring
+switcheroo-control
+accountsservice
+iso-codes
+gstreamer1.0-plugins-base
+gstreamer1.0-plugins-good
+libheif1
+flatpak
+sddm
+sddm-theme-breeze
+breeze-icon-theme
+
+# Terminal & GUI Shell
+foot
+kitty
+sddm
+
+# Modern Audio & Media Stack
+pipewire
+pipewire-pulse
+pipewire-alsa
+pipewire-audio-client-libraries
+wireplumber
+pamixer
+pavucontrol
+brightnessctl
+showtime
+
+# Fonts
+fonts-font-awesome
+fonts-noto-color-emoji
+fonts-jetbrains-mono
+
+# Live Boot Utilities
+live-boot
+live-boot-initramfs-tools

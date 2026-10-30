@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="musicBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <filter id="musicShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#be185d" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <!-- Squircle Base -->
+  <rect x="10" y="10" width="108" height="108" rx="28" ry="28" fill="url(#musicBg)" filter="url(#musicShadow)"/>
+  <!-- Beamed Double Musical Eighth Note `♫` -->
+  <!-- Left Note Head -->
+  <ellipse cx="44" cy="84" rx="14" ry="10" transform="rotate(-20 44 84)" fill="#ffffff"/>
+  <!-- Right Note Head -->
+  <ellipse cx="84" cy="74" rx="14" ry="10" transform="rotate(-20 84 74)" fill="#ffffff"/>
+  <!-- Left Stem -->
+  <rect x="52" y="38" width="6.5" height="46" rx="3" fill="#ffffff"/>
+  <!-- Right Stem -->
+  <rect x="92" y="28" width="6.5" height="46" rx="3" fill="#ffffff"/>
+  <!-- Top Connecting Beam -->
+  <polygon points="52,38 98.5,28 98.5,40 52,50" fill="#ffffff"/>
+</svg>

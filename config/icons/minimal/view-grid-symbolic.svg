@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Minimal 9-dot App Drawer Grid (3x3 clean circular dots) -->
+  <g fill="#f8fafc">
+    <!-- Row 1 -->
+    <circle cx="36" cy="36" r="8"/>
+    <circle cx="64" cy="36" r="8"/>
+    <circle cx="92" cy="36" r="8"/>
+    <!-- Row 2 -->
+    <circle cx="36" cy="64" r="8"/>
+    <circle cx="64" cy="64" r="8"/>
+    <circle cx="92" cy="64" r="8"/>
+    <!-- Row 3 -->
+    <circle cx="36" cy="92" r="8"/>
+    <circle cx="64" cy="92" r="8"/>
+    <circle cx="92" cy="92" r="8"/>
+  </g>
+</svg>
